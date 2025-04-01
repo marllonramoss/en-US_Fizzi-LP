@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fizzi - Interactive Landing Page
 
-## Getting Started
+A modern, high-performance landing page built with Next.js 14, featuring interactive 3D elements and smooth animations. This project showcases advanced web development techniques and modern web technologies.
 
-First, run the development server:
+## 🚀 Features
 
+- Interactive 3D elements using React Three Fiber
+- Smooth animations with GSAP
+- Headless CMS integration with Prismic
+- Responsive design
+- Optimized performance
+- TypeScript for type safety
+- Modern UI with Tailwind CSS
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14
+- **3D Rendering:** React Three Fiber, Drei, Three.js
+- **Animations:** GSAP
+- **CMS:** Prismic
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+- **Development Tools:** ESLint, PostCSS
+
+## 📦 Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+- Prismic CMS account (for content management)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/fizzi-landing-page.git
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up your environment variables:
+```bash
+cp .env.example .env.local
+```
+
+4. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+fizzi-landing-page/
+├── app/                 # Next.js app directory
+├── components/          # React components
+├── slices/             # Prismic slices
+├── public/             # Static assets
+├── customtypes/        # Prismic custom types
+└── ...
+```
 
-## Learn More
+## 🔧 Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run slicemachine` - Start Prismic Slice Machine
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Responsive Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The landing page is fully responsive and optimized for:
+- Desktop
+- Tablet
+- Mobile devices
 
-## Deploy on Vercel
+## 🔍 Performance Optimization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Server-side rendering with Next.js
+- Optimized 3D rendering
+- Lazy loading of components
+- Image optimization
+- Code splitting
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+Marllon Ramos Marins
+- GitHub: [@marllonramos](https://github.com/marllonramos)
+- LinkedIn: [Marllon Ramos](https://linkedin.com/in/marllonramos)
+
+---
+
+Made with ❤️ using Next.js and React Three Fiber
